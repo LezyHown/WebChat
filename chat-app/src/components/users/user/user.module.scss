@@ -1,0 +1,30 @@
+.user{
+    display: flex;
+    padding: 0.5rem 1rem 0.5rem;
+
+    img{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        align-self: center;
+    }
+
+    .username, .lastmsg{
+        padding-left: 0.25rem;
+        margin-bottom: 0.5rem;
+        width: 250px;
+    }
+
+    .username{
+        padding-top: 0.5rem;
+        font-weight: bold;
+    }
+
+    .lastmsg{
+        opacity: 50%;
+        line-height: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;    
+        white-space: nowrap;
+    }
+}

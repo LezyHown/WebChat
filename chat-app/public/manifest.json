@@ -1,0 +1,8 @@
+{
+  "short_name": "WEBChat",
+  "name": "Simple web chat for messaging with a different people",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
