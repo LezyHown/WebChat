@@ -1,4 +1,9 @@
 .users{
-    width: 400px;
+    min-width: 400px;
     height: 100vh;
+    overflow: scroll;
+
+    @media (max-width: 805px) {
+        min-width: auto;
+    }
 }
